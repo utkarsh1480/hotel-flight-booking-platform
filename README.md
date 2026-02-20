@@ -2,28 +2,51 @@
 A MERN stack travel booking platform with authentication, trip listings, booking management, and payment integration. Designed with scalable backend and responsive UI.
 
 ```
-travel-booking-mern/
+travel-app/
 │
-├── client/              → Frontend (React)
-│   ├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── services/api.js
-│   └── package.json
+├── config/
+│   ├── db.js
+│   ├── auth.js
 │
-├── server/              → Backend (Node + Express)
-│   ├── controllers/
-│   ├── routes/
-│   ├── models/
-│   ├── middleware/
-│   ├── config/
-│   └── package.json
+├── controllers/
+│   ├── authController.js
+│   ├── bookingController.js
+│   ├── hotelController.js
+│   ├── searchController.js
 │
-├── database/            → DB schemas or config
+├── models/
+│   ├── User.js
+│   ├── Hotel.js
+│   ├── Booking.js
+│   ├── Payment.js
 │
-├── docs/                → architecture diagrams, API docs
+├── routes/
+│   ├── authRoutes.js
+│   ├── bookingRoutes.js
+│   ├── hotelRoutes.js
 │
-├── .env.example
-├── README.md
-└── package.json (optional root)
+├── services/
+│   ├── paymentService.js
+│   ├── searchService.js
+│   ├── mailService.js
+│
+├── middlewares/
+│   ├── authMiddleware.js
+│   ├── errorMiddleware.js
+│
+├── views/              ← EJS UI
+│   ├── layouts/
+│   ├── partials/
+│   ├── home.ejs
+│   ├── login.ejs
+│   ├── search.ejs
+│   ├── booking.ejs
+│
+├── public/
+│   ├── css/
+│   ├── js/
+│   ├── images/
+│
+├── app.js
+└── package.json
 ```
