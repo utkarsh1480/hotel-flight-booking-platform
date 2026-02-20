@@ -1,0 +1,20 @@
+{
+  "name": "hotel-flight-booking-platform",
+  "version": "1.0.0",
+  "description": "A full-stack travel booking application built using **Node.js, Express, EJS, and MongoDB**. Users can search hotels and flights, view details, make bookings, and complete payments. Admins can manage listings, bookings, and platform data.",
+  "homepage": "https://github.com/utkarsh1480/hotel-flight-booking-platform#readme",
+  "bugs": {
+    "url": "https://github.com/utkarsh1480/hotel-flight-booking-platform/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/utkarsh1480/hotel-flight-booking-platform.git"
+  },
+  "license": "ISC",
+  "author": "UTKARSH",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
